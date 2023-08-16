@@ -8,3 +8,9 @@ div {
     width : 1vw;
     background-color: aqua;
 }
+
+.game-window {
+    height: 400px;
+    width:300px;
+    border: 1px solid red;
+}
