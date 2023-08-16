@@ -28,6 +28,7 @@ First step - building the page. Went to W3 schools to freshen up on HTML basics.
 Built out the meta details in the header
 Added twitter card for the band to share their game 
 Plan for game, based on previous Unity build, div for game window, character div, obstacles are divs too 
+It was at this point I found a site telling me how to build the game I wanted :( I'll have to build on what it says [https://medium.com/codex/making-the-easiest-javascript-game-b1a0b21794b4]
 # To do List 
 ## Good
 * "How to Play" div
