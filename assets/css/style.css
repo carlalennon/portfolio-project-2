@@ -16,5 +16,6 @@ header {
 #character {
     width:8px;
     height:16px;
+    border: 1px solid green;
     background-image: url("assets/images/temp-sprite.png");
 }
