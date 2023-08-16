@@ -27,6 +27,7 @@ After our first conversation about this project, I drew the band members on a na
 First step - building the page. Went to W3 schools to freshen up on HTML basics. 
 Built out the meta details in the header
 Added twitter card for the band to share their game 
+Plan for game, based on previous Unity build, div for game window, character div, obstacles are divs too 
 # To do List 
 ## Good
 * "How to Play" div
