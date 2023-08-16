@@ -14,10 +14,21 @@ header {
 }
 
 #character {
-    width:8px;
-    height:16px;
+    width:32px;
+    height: 64px;
     border: 1px solid green;
     background-image: url("assets/images/temp-sprite.png");
     background-color: magenta;
     background-size: cover;
+    position:relative;
+    top:336px;
+}
+
+#obstacles {
+    width:30px;
+    height:30px;
+    background-color:blueviolet;
+    position:relative;
+    top:170px;
+    left:470px;
 }
