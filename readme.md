@@ -29,6 +29,16 @@ Built out the meta details in the header
 Added twitter card for the band to share their game 
 Plan for game, based on previous Unity build, div for game window, character div, obstacles are divs too 
 It was at this point I found a site telling me how to build the game I wanted :( I'll have to build on what it says [https://medium.com/codex/making-the-easiest-javascript-game-b1a0b21794b4]
+I have decided not to read the whole tutorial. For now.
+
+Took a new route, drawing elements of the game using JS [https://www.w3schools.com/graphics/tryit.asp?filename=trygame_default_gravity]
+JS has a gravity function? Great news
+JS character movement uses some of the same principles of c# character movement that I have already learned ( += )
+
+Drawing the canvas: 
+When using HTML like this, the drawn box is referred to as the "canvas", the same as when using Adobe Flash in college. The canvas also uses something called "context" [https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D] denoted as ctx in the JS file
+I want my game to be full screen and responsive. When drawing the canvas at game start, I am unsing the innerWidth/innerHeight methods
+
 # To do List 
 ## Good
 * "How to Play" div
@@ -36,3 +46,8 @@ It was at this point I found a site telling me how to build the game I wanted :(
 ## Best
 * Add tab icon in HTML header
 * Add more social media cards to header
+
+
+Sources:
+[https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener]
+[https://www.w3schools.com/howto/howto_js_animate.asp#:~:text=JavaScript%20animations%20are%20done%20by,small%2C%20the%20animation%20looks%20continuous.]
