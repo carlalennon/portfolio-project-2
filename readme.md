@@ -36,7 +36,8 @@ JS has a gravity function? Great news
 JS character movement uses some of the same principles of c# character movement that I have already learned ( += )
 
 Drawing the canvas: 
-When using HTML like this, the drawn box is referred to as the "canvas", the same as when using Adobe Flash in college. The canvas also uses something called "context" [https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D] denoted as ctx in the JS file
+When using HTML like this, the drawn box is referred to as the "canvas", the same as when using Adobe Flash in college. The canvas also uses something called "context" [https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D] denoted as ctx in the JS file.
+The context can be set to 2D to allow the program to draw on the canvas. [https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/getContext]. This can be useed to set an alpha value, for example adding a background of crowd paralax in the future. The desynchronized method decouples the drawing of the canvas from the event loop, so a background could change at a dufferent rate than a character for example.
 I want my game to be full screen and responsive. When drawing the canvas at game start, I am unsing the innerWidth/innerHeight methods
 
 # To do List 
@@ -51,3 +52,7 @@ I want my game to be full screen and responsive. When drawing the canvas at game
 Sources:
 [https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener]
 [https://www.w3schools.com/howto/howto_js_animate.asp#:~:text=JavaScript%20animations%20are%20done%20by,small%2C%20the%20animation%20looks%20continuous.]
+[https://developer.mozilla.org/en-US/docs/Web/API/Web_components]
+[https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement]
+[https://www.w3schools.com/graphics/game_components.asp]
+[https://www.cozyroc.com/ssis/javascript-parameters#:~:text=JavaScript%20Task%20and%20JavaScript%20Component,of%20the%20task%2Fcomponent%20editor.]

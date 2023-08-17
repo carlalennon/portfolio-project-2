@@ -4,6 +4,17 @@ var character;
 var obstacles;
 var score;
 
+// Onload event
+
+function gameStart() {
+    character = new component(30, 30, "red", 10, 120);
+    character.gravity = 1;
+
+    // Score will go here
+
+    playArea.start();
+}
+
 
 // Draw the game on screen 
 
