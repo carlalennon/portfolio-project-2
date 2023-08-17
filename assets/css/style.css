@@ -3,27 +3,7 @@
     margin:0;
 }
 
-#game-window {
-   border:1px solid red;
-   background-color: aqua;
-}
-
-#character {
-    width:32px;
-    height: 64px;
-    border: 1px solid green;
-    background-image: url("assets/images/temp-sprite.png");
-    background-color: magenta;
-    background-size: cover;
-    position:relative;
-    top:336px;
-}
-
-#obstacles {
-    width:30px;
-    height:30px;
-    background-color:blueviolet;
-    position:relative;
-    top:370px;
-    left:470px;
+canvas {
+    border: 1px solid red;
+    background-color: aqua;
 }
